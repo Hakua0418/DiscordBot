@@ -16,7 +16,7 @@ import wikipedia
 from datetime import timezone, timedelta, datetime
 import pytz
 
-TOKEN = "OTA4NTMxNTE0OTczNzgyMDc5.G2CcSL.jm_6ZJ09PtqRXCAmOsjSG5De5NWqSSB27s70Yk"
+TOKEN = "TOKEN"
 
 # wikipedia Library setting
 wikipedia.set_lang("ja")
