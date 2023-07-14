@@ -22,7 +22,7 @@ TOKEN = "TOKEN"
 wikipedia.set_lang("ja")
 
 # Openwether API setting and PyOWM config setting
-API_KEY = "47b6eef3d271defa1dc8150c064a01bb"
+API_KEY = "KEY"
 config_dict = get_default_config()
 config_dict["language"] = "ja"
 owm = OWM(API_KEY, config_dict)
@@ -30,8 +30,8 @@ mgr = owm.weather_manager()
 
 # Rakuten API setting
 RAKU_TRAVEL_API_URL = "https://app.rakuten.co.jp/services/api/Travel/KeywordHotelSearch/20170426?"
-RAKU_API_ID = "1001723775230610155"
-RAKU_AFFILIATE_ID = '33389144.28ae5147.33389145.82470423'
+RAKU_API_ID = "ID"
+RAKU_AFFILIATE_ID = 'ID'
 
 # timezone setting
 jst = pytz.timezone('Asia/Tokyo')
@@ -42,7 +42,7 @@ client = discord.Client(intents=discord.Intents.all())
 # HotPepper API Setting
 HP_URL = "http://webservice.recruit.co.jp/hotpepper/gourmet/v1/"
 URLHP = "https://www.hotpepper.jp"
-HOT_PEPPER_API_KEY = "c53e1ecf09bb3a69"
+HOT_PEPPER_API_KEY = "KEY"
 
 # CevioAI API Setting(Cast Toggle comment out) & (now stoping service voice talk bot)
 cevio = win32com.client.Dispatch("CeVIO.Talk.RemoteService2.ServiceControl2V40")
